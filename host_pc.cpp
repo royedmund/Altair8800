@@ -46,6 +46,7 @@
 #else
 
 #include <signal.h>
+#include <pthread.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <sys/eventfd.h>
